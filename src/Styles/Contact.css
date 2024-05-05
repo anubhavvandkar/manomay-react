@@ -1,0 +1,14 @@
+.instagram {
+    color: #c526b8;
+}
+.facebook {
+    color: #3b5998;
+}
+
+.Link {
+    color: #3b5998;
+}
+.Link:hover {
+    color: #000;
+    text-underline-offset: 5px;
+}

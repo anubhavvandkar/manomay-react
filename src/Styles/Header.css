@@ -1,0 +1,60 @@
+.App-header {
+    padding: 15px;
+    background-color: white;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+}
+.header_title{
+    text-align: center;
+    height: inherit;
+    width: 80%;
+}
+.header_image{
+    width: 10%;
+}
+
+.clearfix {
+    margin: 0;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+h1 {
+    margin-bottom: 0;
+}
+p {
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .header_title{
+        width: 70%;
+    }
+    .header_image{
+        width: 15%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .header_title{
+        width: 60%;
+    }
+    .header_image{
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .header_title{
+        width: 50%;
+    }
+    .header_image{
+        width: 25%;
+    }
+}
